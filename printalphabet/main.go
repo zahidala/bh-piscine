@@ -1,11 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
+import "github.com/01-edu/z01"
 
 func main() {
-	str := "abcdefghijklmnopqrstuvwxyz"
-	fmt.Println(strings.ToLower(str))
+	for i := 'a'; i < 'z'; i++ {
+		z01.PrintRune(i)
+	}
+	z01.PrintRune('\n')
 }
