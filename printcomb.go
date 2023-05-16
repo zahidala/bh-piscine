@@ -1,5 +1,5 @@
-package main
-// package piscine
+// package main
+package piscine
 
 import "github.com/01-edu/z01"
 
@@ -14,7 +14,7 @@ func PrintComb() {
 				if (i == '7' && j == '8' && k == '9') {
 					break
 				}
-				
+
 				z01.PrintRune(',')
 				z01.PrintRune(' ')
 			}
@@ -25,6 +25,6 @@ func PrintComb() {
 
 
 
-func main() {
-	PrintComb()
-}
+// func main() {
+// 	PrintComb()
+// }
