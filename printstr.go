@@ -17,7 +17,7 @@ func PrintStr(s string) {
 	// z01.PrintRune(rune(s[10]))
 	// z01.PrintRune(rune(s[11]))
 
-	for _, word := range s{
+	for _, word := range s {
 		z01.PrintRune(word)
 	}
 }
