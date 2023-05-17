@@ -10,8 +10,8 @@ func StrRev(s string) string {
 	var reversedLetters []rune
 
 	for i := len(letterArray) - 1; i >= 0; i-- {
-        reversedLetters = append(reversedLetters, letterArray[i])
-    }
+		reversedLetters = append(reversedLetters, letterArray[i])
+	}
 
 	return string(reversedLetters)
 }
