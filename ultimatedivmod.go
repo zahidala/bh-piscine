@@ -5,23 +5,9 @@ package piscine
 // import "fmt"
 
 func UltimateDivMod(a *int, b *int) {
-	// fmt.Println("a before division:", *a)
-	// fmt.Println("b before division:", *b)
-
 	c := *a
 
 	*a = c / *b
 
-	// fmt.Println("a after division:", *a)
-	// fmt.Println("b after division:", *b)
-
 	*b = c % *b
 }
-
-// func main() {
-// 	a := 13
-// 	b := 2
-// 	UltimateDivMod(&a, &b)
-// 	fmt.Println(a)
-// 	fmt.Println(b)
-// }
