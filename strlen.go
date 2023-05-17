@@ -1,10 +1,10 @@
 package main
+
 // package piscine
 
 import "fmt"
 
 func StrLen(s string) int {
-	
 	// count := 0
 
 	// for range s {
