@@ -1,6 +1,6 @@
-package main
+// package main
 
-// package piscine
+package piscine
 
 import "fmt"
 
@@ -16,7 +16,7 @@ func StrLen(s string) int {
 	return len(s2)
 }
 
-func main() {
-	l := StrLen("Hello World!")
-	fmt.Println(l)
-}
+// func main() {
+// 	l := StrLen("Hello World!")
+// 	fmt.Println(l)
+// }
