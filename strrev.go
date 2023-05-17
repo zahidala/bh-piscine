@@ -1,21 +1,23 @@
-// package main
+package main
 
-package piscine
+// package piscine
 
-// import "fmt"
+import "fmt"
 
 func StrRev(s string) string {
-	rns := []rune(s)
+	letterArray := []rune(s)
 
-	for i, j := 0, len(rns)-1; i < j; i, j = i+1, j-1 {
-		rns[i], rns[j] = rns[j], rns[i]
-	}
+	var reversedLetters []rune
 
-	return string(rns)
+	for i := len(letterArray) - 1; i >= 0; i-- {
+        reversedLetters = append(reversedLetters, letterArray[i])
+    }
+
+	return string(reversedLetters)
 }
 
-// func main() {
-// 	s := "Hello World!"
-// 	s = StrRev(s)
-// 	fmt.Println(s)
-// }
+func main() {
+	s := "Hello World!"
+	s = StrRev(s)
+	fmt.Println(s)
+}
