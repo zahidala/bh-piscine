@@ -1,8 +1,8 @@
-package main
+// package main
 
-// package piscine
+package piscine
 
-import "fmt"
+// import "fmt"
 
 func BasicAtoi(s string) int {
 	numberArray := []rune(s)
@@ -14,8 +14,8 @@ func BasicAtoi(s string) int {
 	return num
 }
 
-func main() {
-	fmt.Println(BasicAtoi("12345"))
-	fmt.Println(BasicAtoi("0000000012345"))
-	fmt.Println(BasicAtoi("000000"))
-}
+// func main() {
+// 	fmt.Println(BasicAtoi("12345"))
+// 	fmt.Println(BasicAtoi("0000000012345"))
+// 	fmt.Println(BasicAtoi("000000"))
+// }
