@@ -2,18 +2,15 @@
 
 package piscine
 
-import "fmt"
+// import "fmt"
 
 func StrLen(s string) int {
-	// count := 0
+	count := 0
 
-	// for range s {
-	// 	count++
-	// }
-	// return count
-
-	s2 := []rune(s)
-	return len(s2)
+	for range s {
+		count++
+	}
+	return count
 }
 
 // func main() {
