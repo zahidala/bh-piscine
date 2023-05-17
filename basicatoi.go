@@ -9,7 +9,7 @@ func BasicAtoi(s string) int {
 	num := 0
 
 	for i := 0; i < len(numberArray); i++ {
-		num = num * 10 + (int(numberArray[i]) - 48)
+		num = num*10 + (int(numberArray[i]) - 48)
 	}
 	return num
 }
