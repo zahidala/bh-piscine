@@ -16,12 +16,6 @@ func PrintStr(s string) {
 	z01.PrintRune(rune(s[9]))
 	z01.PrintRune(rune(s[10]))
 	z01.PrintRune(rune(s[11]))
-	z01.PrintRune('\n')
-
-	// for i := '0'; i <= '9' + 2; i++ {
-	// 	// z01.PrintRune(rune(i))
-	// 	z01.PrintRune(rune(s[i]))
-	// }
 }
 
 // func main() {
