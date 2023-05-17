@@ -16,8 +16,8 @@ func StrRev(s string) string {
 	return string(reversedLetters)
 }
 
-func main() {
-	s := "Hello World!"
-	s = StrRev(s)
-	fmt.Println(s)
-}
+// func main() {
+// 	s := "Hello World!"
+// 	s = StrRev(s)
+// 	fmt.Println(s)
+// }
