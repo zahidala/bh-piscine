@@ -1,6 +1,6 @@
-package main
+// package main
 
-// package piscine
+package piscine
 
 func IterativePower(nb int, power int) int {
 	if nb < 0 {
