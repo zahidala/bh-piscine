@@ -18,7 +18,6 @@ func Fibonacci(index int) int {
 	} else {
 		return Fibonacci(index-2) + Fibonacci(index-1)
 	}
-
 }
 
 // func main() {
