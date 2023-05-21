@@ -5,9 +5,7 @@
 package piscine
 
 func IterativePower(nb int, power int) int {
-	if nb < 0 {
-		return 0
-	} else if power < 0 {
+	if power < 0 {
 		return 0
 	} else {
 		result := 1
@@ -19,6 +17,5 @@ func IterativePower(nb int, power int) int {
 }
 
 // func main() {
-// 	fmt.Println(IterativePower(-3, -5))
-// 	fmt.Println(IterativePower(3, -1))
+// 	fmt.Println(IterativePower(-7, 4))
 // }
