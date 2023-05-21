@@ -1,8 +1,8 @@
-package main
+// package main
 
-// package piscine
+package piscine
 
-import "fmt"
+// import "fmt"
 
 func Fibonacci(index int) int {
 	if index == 0 {
@@ -17,7 +17,7 @@ func Fibonacci(index int) int {
 	return -1
 }
 
-func main() {
-	arg1 := 4
-	fmt.Println(Fibonacci(arg1))
-}
+// func main() {
+// 	arg1 := 4
+// 	fmt.Println(Fibonacci(arg1))
+// }
