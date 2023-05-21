@@ -2,8 +2,6 @@ package piscine
 
 // package main
 
-// import "github.com/01-edu/z01"
-
 func NRune(s string, n int) rune {
 	r := []rune(s)
 
@@ -12,7 +10,7 @@ func NRune(s string, n int) rune {
 	} else if n < len(s) || n == len(s)-1 {
 		return r[n-1]
 	} else {
-		return 0
+		return '\x00'
 	}
 }
 
