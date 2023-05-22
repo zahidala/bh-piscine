@@ -5,7 +5,6 @@ package piscine
 // import "fmt"
 
 func AlphaCount(s string) int {
-
 	alphaRune := []rune(s)
 
 	count := 0
