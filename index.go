@@ -6,9 +6,13 @@ import "fmt"
 
 func Index(s string, toFind string) int {
 	for i, letters := range s {
-		for _, letter := range toFind {
+		for j, letter := range toFind {
 			if letters == letter {
 				return i
+			}
+
+			if s[i+j] != toFind[j] {
+				break
 			}
 		}
 	}
