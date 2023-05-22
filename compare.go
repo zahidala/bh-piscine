@@ -1,11 +1,8 @@
-package main
+// package main
 
-import "fmt"
-
-// package piscine
+package piscine
 
 func Compare(a, b string) int {
-
 	// for _, i := range a {
 	// 	for _, j := range b {
 	// 		if i == j {
@@ -26,11 +23,10 @@ func Compare(a, b string) int {
 	} else {
 		return 1
 	}
-
 }
 
-func main() {
-	fmt.Println(Compare("Hello!", "Hello!"))
-	fmt.Println(Compare("Salut!", "lut!"))
-	fmt.Println(Compare("Ola!", "Ol"))
-}
+// func main() {
+// 	fmt.Println(Compare("Hello!", "Hello!"))
+// 	fmt.Println(Compare("Salut!", "lut!"))
+// 	fmt.Println(Compare("Ola!", "Ol"))
+// }
