@@ -18,7 +18,6 @@ func NRune(s string, n int) rune {
 	} else {
 		return 0
 	}
-
 }
 
 func main() {
