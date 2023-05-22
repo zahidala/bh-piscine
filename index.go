@@ -5,15 +5,12 @@ package piscine
 // import "fmt"
 
 func Index(s string, toFind string) int {
-	for i, letters := range s {
-		for j, letter := range toFind {
-			if letters == letter {
-				return i
-			}
+	lettersLen := len([]rune(s))
+	letterLen := len([]rune(toFind))
 
-			if s[i+j] != toFind[j] {
-				break
-			}
+	for i := 0; i <= lettersLen-letterLen; i++ {
+		if s[i:i+letterLen] == toFind {
+			return i
 		}
 	}
 	return -1
