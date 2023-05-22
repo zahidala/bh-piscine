@@ -1,8 +1,8 @@
-// package piscine
+package piscine
 
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
 func AlphaCount(s string) int {
 
@@ -27,8 +27,8 @@ func AlphaCount(s string) int {
 	return count
 }
 
-func main() {
-	s := "Hello 78 World!    4455 /"
-	nb := AlphaCount(s)
-	fmt.Println(nb)
-}
+// func main() {
+// 	s := "Hello 78 World!    4455 /"
+// 	nb := AlphaCount(s)
+// 	fmt.Println(nb)
+// }
