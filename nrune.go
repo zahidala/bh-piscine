@@ -10,7 +10,7 @@ func NRune(s string, n int) rune {
 	} else if n < len(s) || n == len(s)-1 {
 		return r[n-1]
 	} else {
-		return '\x00'
+		return 0
 	}
 }
 
