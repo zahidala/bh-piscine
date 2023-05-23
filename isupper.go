@@ -13,7 +13,6 @@ func IsUpper(s string) bool {
 	return true
 }
 
-
 func main() {
 	fmt.Println(IsUpper("HELLO"))
 	fmt.Println(IsUpper("HELLO!"))
