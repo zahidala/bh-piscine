@@ -2,7 +2,7 @@ package piscine
 
 // package main
 
-import "fmt"
+// import "fmt"
 
 func IsUpper(s string) bool {
 	for i := range s {
