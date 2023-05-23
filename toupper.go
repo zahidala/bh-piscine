@@ -1,8 +1,8 @@
-// package piscine
+package piscine
 
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
 func ToUpper(s string) string {
 	x := []rune(s)
@@ -14,6 +14,6 @@ func ToUpper(s string) string {
 	return string(x)
 }
 
-func main() {
-	fmt.Println(ToUpper("Hello! How are you?"))
-}
+// func main() {
+// 	fmt.Println(ToUpper("Hello! How are you?"))
+// }
