@@ -1,8 +1,8 @@
-// package piscine
+package piscine
 
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
 func IsNumeric(s string) bool {
 	for i := range s {
@@ -13,7 +13,7 @@ func IsNumeric(s string) bool {
 	return true
 }
 
-func main() {
-	fmt.Println(IsNumeric("010203"))
-	fmt.Println(IsNumeric("01,02,03"))
-}
+// func main() {
+// 	fmt.Println(IsNumeric("010203"))
+// 	fmt.Println(IsNumeric("01,02,03"))
+// }
