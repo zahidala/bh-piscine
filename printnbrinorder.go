@@ -11,21 +11,15 @@ func PrintNbrInOrder(n int) {
 	// 	n = n / 10
 	// }
 
-	var digits []int
-
 	if n == 0 {
 		z01.PrintRune('0')
 	}
 
 	for n != 0 {
-		digit := n % 10
-		digits = append(digits, digit)
-		n = n / 10
-	}
-
-	// Print digits in ascending order
-	for i := len(digits) - 1; i >= 0; i-- {
-		z01.PrintRune(rune(digits[i] + '0'))
+		reversedNumber := rune(n%10 + '0') // 123 / 10 + '0'
+		z01.PrintRune(reversedNumber)      // 3 + ascii 48
+		n = n / 10                         // 3 + 48 = 51
+		// break loop when n = 0			// rune(51) == the number 3
 	}
 }
 
