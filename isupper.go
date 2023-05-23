@@ -1,6 +1,6 @@
-// package piscine
+package piscine
 
-package main
+// package main
 
 import "fmt"
 
@@ -13,8 +13,8 @@ func IsUpper(s string) bool {
 	return true
 }
 
-func main() {
-	fmt.Println(IsUpper("HELLO"))
-	fmt.Println(IsUpper("HELLO!"))
+// func main() {
+// 	fmt.Println(IsUpper("HELLO"))
+// 	fmt.Println(IsUpper("HELLO!"))
 
-}
+// }
