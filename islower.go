@@ -1,19 +1,20 @@
-package piscine
+// package piscine
 
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
 func IsLower(s string) bool {
 	for i := range s {
-		if s[i] <= 'a' || s[i] >= 'z' {
+		if s[i] < 'a' || s[i] > 'z' {
 			return false
 		}
 	}
 	return true
 }
 
-// func main() {
-// 	fmt.Println(IsLower("hello"))
-// 	fmt.Println(IsLower("hello!"))
-// }
+func main() {
+	fmt.Println(IsLower("hello"))
+	fmt.Println(IsLower("hello!"))
+	fmt.Println(IsLower("ypnzbpqtttyiw"))
+}
