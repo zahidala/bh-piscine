@@ -1,8 +1,8 @@
-// package piscine
+package piscine
 
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
 func IsLower(s string) bool {
 	for i := range s {
@@ -13,8 +13,7 @@ func IsLower(s string) bool {
 	return true
 }
 
-func main() {
-	fmt.Println(IsLower("hello"))
-	fmt.Println(IsLower("hello!"))
-	fmt.Println(IsLower("ypnzbpqtttyiw"))
-}
+// func main() {
+// 	fmt.Println(IsLower("hello"))
+// 	fmt.Println(IsLower("hello!"))
+// }
