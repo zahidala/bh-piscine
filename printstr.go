@@ -22,6 +22,6 @@ func PrintStr(s string) {
 	}
 }
 
-func main() {
-	PrintStr("Hello World!")
-}
+// func main() {
+// 	PrintStr("Hello World!")
+// }
