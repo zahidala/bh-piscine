@@ -1,9 +1,9 @@
-package main 
+package main
 
 import (
 	// "fmt"
-	"os"
 	"github.com/01-edu/z01"
+	"os"
 )
 
 func main() {
@@ -12,9 +12,9 @@ func main() {
 	// 	fmt.Println((os.Args[i]))
 	// }
 
-	for i := 1; i<= len(os.Args)-1; i++ {
+	for i := 1; i <= len(os.Args)-1; i++ {
 		arguments := os.Args[i]
-		for _,value := range arguments {
+		for _, value := range arguments {
 			z01.PrintRune(value)
 		}
 		z01.PrintRune('\n')
