@@ -2,7 +2,7 @@ package piscine
 
 // package main
 
-import "fmt"
+// import "fmt"
 
 func AppendRange(min, max int) []int {
 	var numArray []int
