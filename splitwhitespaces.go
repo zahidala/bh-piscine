@@ -1,7 +1,5 @@
 package piscine
 
-import "fmt"
-
 // package main
 
 // import "fmt"
@@ -24,6 +22,6 @@ func SplitWhiteSpaces(s string) []string {
 	return words
 }
 
-func main() {
-	fmt.Printf("%#v\n", SplitWhiteSpaces("Hello how are you?"))
-}
+// func main() {
+// 	fmt.Printf("%#v\n", SplitWhiteSpaces("Hello how are you?"))
+// }
