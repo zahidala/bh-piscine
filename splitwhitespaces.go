@@ -1,8 +1,10 @@
 package piscine
 
+import "fmt"
+
 // package main
 
-import "fmt"
+// import "fmt"
 
 func SplitWhiteSpaces(s string) []string {
 	var letter string
