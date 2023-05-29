@@ -2,8 +2,6 @@ package piscine
 
 // package main
 
-import "fmt"
-
 func Map(f func(int) bool, a []int) []bool {
 	var s []bool
 	for _, v := range a {
@@ -16,8 +14,8 @@ func Map(f func(int) bool, a []int) []bool {
 	return s
 }
 
-func main() {
-	a := []int{1, 2, 3, 4, 5, 6}
-	result := Map(piscine.IsPrime, a)
-	fmt.Println(result)
-}
+// func main() {
+// 	a := []int{1, 2, 3, 4, 5, 6}
+// 	result := Map(piscine.IsPrime, a)
+// 	fmt.Println(result)
+// }
