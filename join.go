@@ -1,16 +1,18 @@
-package piscine
+// package piscine
 
-// package main
+package main
+
+import "fmt"
 
 func Join(strs []string, sep string) string {
-	var words string
-	for i := 0; i <= len(strs)-1; i++ {
-		words = words + strs[i] + sep
+	words := strs[0]
+	for i := 1; i < len(strs); i++ {
+		words += sep + strs[i]
 	}
-	return words[:len(words)-1]
+	return words
 }
 
-// func main() {
-// 	toConcat := []string{"Hello!", " How", " are", " you?"}
-// 	fmt.Println(Join(toConcat, ":"))
-// }
+func main() {
+	toConcat := []string{"Hello!", " How", " are", " you?"}
+	fmt.Println(Join(toConcat, ":"))
+}
