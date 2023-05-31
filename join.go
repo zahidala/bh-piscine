@@ -1,8 +1,8 @@
-// package piscine
+package piscine
 
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
 func Join(strs []string, sep string) string {
 	words := strs[0]
@@ -12,7 +12,7 @@ func Join(strs []string, sep string) string {
 	return words
 }
 
-func main() {
-	toConcat := []string{"Hello!", " How", " are", " you?"}
-	fmt.Println(Join(toConcat, ":"))
-}
+// func main() {
+// 	toConcat := []string{"Hello!", " How", " are", " you?"}
+// 	fmt.Println(Join(toConcat, ":"))
+// }
