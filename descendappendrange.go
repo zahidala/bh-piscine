@@ -1,8 +1,6 @@
-// package piscine
+package piscine
 
-package main
-
-import "fmt"
+// package main
 
 func DescendAppendRange(max, min int) []int {
 	var numArray []int
@@ -17,8 +15,8 @@ func DescendAppendRange(max, min int) []int {
 	return numArray
 }
 
-func main() {
-	fmt.Println(DescendAppendRange(10, 5))
-	fmt.Println(DescendAppendRange(5, 10))
-	fmt.Println(DescendAppendRange(0, 1))
-}
+// func main() {
+// 	fmt.Println(DescendAppendRange(10, 5))
+// 	fmt.Println(DescendAppendRange(5, 10))
+// 	fmt.Println(DescendAppendRange(0, 1))
+// }
