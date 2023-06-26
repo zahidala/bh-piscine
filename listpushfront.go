@@ -12,18 +12,18 @@ package piscine
 // 	Tail *NodeL
 // }
 
-func ListPushFront(l *List, data interface{}) {
-	newNode := &NodeL{Data: data}
+// func ListPushFront(l *List, data interface{}) {
+// 	newNode := &NodeL{Data: data}
 
-	if l.Head == nil {
-		l.Head = newNode
-		l.Tail = newNode
-		return
-	}
+// 	if l.Head == nil {
+// 		l.Head = newNode
+// 		l.Tail = newNode
+// 		return
+// 	}
 
-	newNode.Next = l.Head
-	l.Head = newNode
-}
+// 	newNode.Next = l.Head
+// 	l.Head = newNode
+// }
 
 // func main() {
 
