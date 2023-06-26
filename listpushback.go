@@ -2,15 +2,15 @@ package piscine
 
 // package main
 
-type NodeL struct {
-	Data interface{}
-	Next *NodeL
-}
+// type NodeL struct {
+// 	Data interface{}
+// 	Next *NodeL
+// }
 
-type List struct {
-	Head *NodeL
-	Tail *NodeL
-}
+// type List struct {
+// 	Head *NodeL
+// 	Tail *NodeL
+// }
 
 func ListPushBack(l *List, data interface{}) {
 	newNode := &NodeL{Data: data}
