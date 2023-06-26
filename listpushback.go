@@ -12,21 +12,21 @@ package piscine
 // 	Tail *NodeL
 // }
 
-func ListPushBack(l *List, data interface{}) {
-	newNode := &NodeL{Data: data}
+// func ListPushBack(l *List, data interface{}) {
+// 	newNode := &NodeL{Data: data}
 
-	if l.Head == nil {
-		l.Head = newNode
-		return
-	}
+// 	if l.Head == nil {
+// 		l.Head = newNode
+// 		return
+// 	}
 
-	curr := l.Head
-	for curr.Next != nil {
-		curr = curr.Next
-	}
+// 	curr := l.Head
+// 	for curr.Next != nil {
+// 		curr = curr.Next
+// 	}
 
-	curr.Next = newNode
-}
+// 	curr.Next = newNode
+// }
 
 // func main() {
 
