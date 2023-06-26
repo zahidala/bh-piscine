@@ -1,6 +1,8 @@
-package piscine
+// package piscine
 
-// package main
+package main
+
+import "fmt"
 
 type NodeL struct {
 	Data interface{}
@@ -22,21 +24,21 @@ func ListPushFront(l *List, data interface{}) {
 	}
 
 	newNode.Next = l.Head
-	l.Tail = newNode
+	l.Head = newNode
 }
 
-// func main() {
+func main() {
 
-// 	link := &List{}
+	link := &List{}
 
-// 	ListPushFront(link, "Hello")
-// 	ListPushFront(link, "man")
-// 	ListPushFront(link, "how are you")
+	ListPushFront(link, "Hello")
+	ListPushFront(link, "man")
+	ListPushFront(link, "how are you")
 
-// 	it := link.Head
-// 	for it != nil {
-// 		fmt.Print(it.Data, " ")
-// 		it = it.Next
-// 	}
-// 	fmt.Println()
-// }
+	it := link.Head
+	for it != nil {
+		fmt.Print(it.Data, " ")
+		it = it.Next
+	}
+	fmt.Println()
+}
