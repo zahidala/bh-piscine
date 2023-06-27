@@ -2,44 +2,44 @@ package piscine
 
 // package main
 
-type NodeL struct {
-	Data interface{}
-	Next *NodeL
-}
+// type NodeL struct {
+// 	Data interface{}
+// 	Next *NodeL
+// }
 
-type List struct {
-	Head *NodeL
-	Tail *NodeL
-}
+// type List struct {
+// 	Head *NodeL
+// 	Tail *NodeL
+// }
 
-func ListPushBack(l *List, data interface{}) {
-	newNode := &NodeL{Data: data}
+// func ListPushBack(l *List, data interface{}) {
+// 	newNode := &NodeL{Data: data}
 
-	if l.Head == nil {
-		l.Head = newNode
-		return
-	}
+// 	if l.Head == nil {
+// 		l.Head = newNode
+// 		return
+// 	}
 
-	curr := l.Head
-	for curr.Next != nil {
-		curr = curr.Next
-	}
+// 	curr := l.Head
+// 	for curr.Next != nil {
+// 		curr = curr.Next
+// 	}
 
-	curr.Next = newNode
-}
+// 	curr.Next = newNode
+// }
 
-func ListLast(l *List) interface{} {
-	it := l.Head
+// func ListLast(l *List) interface{} {
+// 	it := l.Head
 
-	if it == nil {
-		return nil
-	}
+// 	if it == nil {
+// 		return nil
+// 	}
 
-	for it.Next != nil {
-		it = it.Next
-	}
-	return it.Data
-}
+// 	for it.Next != nil {
+// 		it = it.Next
+// 	}
+// 	return it.Data
+// }
 
 // func main() {
 // 	link := &List{}
