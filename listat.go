@@ -1,8 +1,6 @@
-package main
+package piscine
 
-import (
-	"fmt"
-)
+// package main
 
 type NodeL struct {
 	Data interface{}
@@ -43,15 +41,15 @@ func ListAt(l *NodeL, pos int) *NodeL {
 	return nil
 }
 
-func main() {
-	link := &List{}
+// func main() {
+// 	link := &List{}
 
-	ListPushBack(link, "hello")
-	ListPushBack(link, "how are")
-	ListPushBack(link, "you")
-	ListPushBack(link, 1)
+// 	ListPushBack(link, "hello")
+// 	ListPushBack(link, "how are")
+// 	ListPushBack(link, "you")
+// 	ListPushBack(link, 1)
 
-	fmt.Println(ListAt(link.Head, 3).Data)
-	fmt.Println(ListAt(link.Head, 1).Data)
-	fmt.Println(ListAt(link.Head, 7))
-}
+// 	fmt.Println(ListAt(link.Head, 3).Data)
+// 	fmt.Println(ListAt(link.Head, 1).Data)
+// 	fmt.Println(ListAt(link.Head, 7))
+// }
