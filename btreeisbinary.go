@@ -32,6 +32,7 @@ func BTreeIsBinary(root *TreeNode) bool {
 	} else if root.Right.Data > root.Data {
 		return false
 	}
+	return false
 }
 
 // func main() {
