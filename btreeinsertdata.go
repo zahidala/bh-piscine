@@ -1,6 +1,8 @@
-package piscine
+// package piscine
 
-// package main
+package main
+
+import "fmt"
 
 type TreeNode struct {
 	Left, Right, Parent *TreeNode
@@ -26,6 +28,7 @@ func BTreeInsertData(root *TreeNode, data string) *TreeNode {
 			root.Left = newNode
 		} else {
 			BTreeInsertData(root.Left, newNode.Data)
+			root.Left.Parent = root
 		}
 	}
 
@@ -34,19 +37,20 @@ func BTreeInsertData(root *TreeNode, data string) *TreeNode {
 			root.Right = newNode
 		} else {
 			BTreeInsertData(root.Right, newNode.Data)
+			root.Left.Parent = root
 		}
 	}
 	return newNode
 }
 
-// func main() {
-// 	root := &TreeNode{Data: "4"}
-// 	BTreeInsertData(root, "1")
-// 	BTreeInsertData(root, "7")
-// 	BTreeInsertData(root, "5")
-// 	fmt.Println(root.Left.Data)
-// 	fmt.Println(root.Data)
-// 	fmt.Println(root.Right.Left.Data)
-// 	fmt.Println(root.Right.Data)
+func main() {
+	root := &TreeNode{Data: "4"}
+	BTreeInsertData(root, "1")
+	BTreeInsertData(root, "7")
+	BTreeInsertData(root, "5")
+	fmt.Println(root.Left.Data)
+	fmt.Println(root.Data)
+	fmt.Println(root.Right.Left.Data)
+	fmt.Println(root.Right.Data)
 
-// }
+}
