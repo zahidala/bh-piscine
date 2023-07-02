@@ -14,31 +14,12 @@ func BTreeInsertData(root *TreeNode, data string) *TreeNode {
 
 	if data < root.Data {
 		root.Left = BTreeInsertData(root.Left, data)
+		root.Left.Parent = root
 	} else {
 		root.Right = BTreeInsertData(root.Right, data)
+		root.Right.Parent = root
 	}
 	return root
-
-	// newNode := &TreeNode{Data: data}
-
-	// if newNode.Data < root.Data {
-	// 	if root.Left == nil {
-	// 		root.Left = newNode
-	// 	} else {
-	// 		BTreeInsertData(root.Left, newNode.Data)
-	// 		root.Left.Parent = root
-	// 	}
-	// }
-
-	// if newNode.Data > root.Data {
-	// 	if root.Right == nil {
-	// 		root.Right = newNode
-	// 	} else {
-	// 		BTreeInsertData(root.Right, newNode.Data)
-	// 		root.Left.Parent = root
-	// 	}
-	// }
-	// return newNode
 }
 
 // func main() {
